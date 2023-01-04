@@ -30,6 +30,7 @@ app.post("/posts/:id/comments", async (req, res) => {
 });
 
 app.post("/events", (req, res) => {
+  console.log("Recived Event", req.body.type);
   const { type, data } = req.body;
 
   if (type === "CommentModerated") {

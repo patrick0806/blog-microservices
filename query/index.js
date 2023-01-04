@@ -36,6 +36,7 @@ app.get("/posts", (req, res) => {
 });
 
 app.post("/events", (req, res) => {
+  console.log("Recived Event", req.body.type);
   const { type, data } = req.body;
   handleEvent(type, data);
   res.send({ status: "OK" });
