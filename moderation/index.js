@@ -18,7 +18,7 @@ app.post("/events", (req, res) => {
     }
 
     setTimeout(() => {
-      axios.post("http://localhost:4005/events", {
+      axios.post("http://event-bus-srv:4005/events", {
         type: "CommentModerated",
         data: {
           id,
