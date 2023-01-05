@@ -23,3 +23,5 @@ yarn start
 This project is created to understand how I can design a microservice and how it works and communicates.
 
 I saw different principles of synchronizing and asynchronous communication with microservices and how it is important, its advantages and disadvantages
+
+How docker works and how i can build my own images and how i can usar kubernetes for orchestrate my containers and make my deploy end services integration more faste and easy
